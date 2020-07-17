@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+
+
+}
+
+.top-container {
+  background-color: white;
+  margin: auto;
+
+
+
+}
+.bottom-container{
+  background-color: grey;
+  padding: 50px;
+}
+
+
+h1 {
+
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+.p1{
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 50px;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+.h2h2{
+  position: relative;
+  top: 35px;
+}
+h3 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.topcloud{
+  position: absolute;
+   right: 80px;
+   top:1px;
+}
+.bottomcloud{
+  position: absolute;
+  left: 70px;
+  top:120px;
+}
+
+.me{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  position: relative;
+  top: 15px;
+}
+
+.skill {
+  border-radius: 40%;
+  height: 230px;
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+}
+.earth{
+  height: 200px;
+  width: 200px;
+  float: right;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+.city{
+  height:400px;
+  width:70%;
+}
+.top-hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 5px;
+  width: 2%;
+  padding:25px;
+  position: relative;
+  top: 25px;
+
+}
+
+
+.bottom-hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 5px;
+  width: 2%;
+  padding:20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.footer-link{
+  color: black;
+  padding: 20px;
+}
+.skillset{
+  width: 50%;
+  margin:100px auto;
+  text-align: left;
+}
+.pro{
+  text-align: left;
+  margin: 100px auto;
+  width: 50%
+
+}
+.knowmore{
+
+  margin: 110px auto 50px auto;
+  width: 75%;
+  padding: 20px;
+}
+.p2{
+  line-height: 2;
+  font-weight: bold;
+}
+.get-in-touch{
+  position: relative;
+  top: 20px;
+}
+/*
+.button{
+  color: black;
+  background: grey;
+  border-radius: 20px;
+  border: 20px;
+  padding: 10px;
+}*/
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+ .button {
+    display: inline-block;
+    cursor: pointer;
+    color: #030303;
+    padding: 9px 18px;
+    font-family: Arial;
+    font-size: 17px;
+    border-radius: 10px;
+    border: solid 1px #808080;
+    background: linear-gradient(91deg, #808080 13%, #808080 8%);
+    box-shadow: inset 13px 22px 17px 20px rgba(128, 128, 128, 0.39);
+}
+ .button:hover {
+    background: linear-gradient(91deg, #D3D3D3 13%, #D3D3D3 8%);
+}
+.copyright{
+  font-size: 0.75rem;
+  color: white;
+}
